@@ -22,12 +22,14 @@ alphabet = "abcdefghijklmnopqrstuvwxyz"
 hij = print(alphabet.index('hij'))
 hij2 = print(alphabet[7:10])
 # b. Extract every third word.
-m_index = print(alphabet.index{'m'})
+# m_index = print(alphabet.index{'m'})
 ever_second = print (alphabet[0:13:2])
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
 reversed_alphabet = print(alphabet[ : : -1])
 i_have_a_dream = "And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, Black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual: Free at last. Free at last. Thank God almighty, we are free at last."
-
+famous_quote = "And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, Black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual: Free at last. Free at last. Thank God almighty, we are free at last.- Martin Luther King"
+martin_luther_king = print(famous_quote.find("Martin Luther King"))
+extracted_name = print(famous_quote[428:])
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
